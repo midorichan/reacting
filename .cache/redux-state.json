@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "334518ed9090fdb06dda34aef05b8504",
+        "contentDigest": "7bdd8f01b935074f54f6583732d88c76",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -316,6 +316,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "url-loader",
+            "version": "^1.0.1"
           }
         ],
         "devDependencies": [
@@ -426,12 +430,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-29T02:00:51.003Z",
+      "buildTime": "2018-08-12T22:18:48.444Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "04af6807cd7fd2183b3b4598a26a012d",
+        "contentDigest": "eabdacba04c07ac7e7681994f1a17e00",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -452,7 +456,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6772bb715f124f7f62318c894600220f",
+        "contentDigest": "05f1937e8b1518aacad8c867611b26de",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -473,7 +477,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70f8ea9887caa869f8bfc3bcf9ca5dff",
+        "contentDigest": "773d6c1f8c0f3ee7b87563b13cdabedf",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -494,7 +498,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "88128bd443a26a3e493531cdf8c4cd25",
+        "contentDigest": "2624b4eb9ea0d0cea0d8d3fd1199f182",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -515,7 +519,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e5154e861c3e527057a1458e0b03706a",
+        "contentDigest": "fc8efe3ea5ac7ce4916ecc0a7c2fb386",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +527,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9612413cdfacf32645b33eec569b864e"
+    "PLUGINS_HASH": "c84ab6b4362e40c0ac716d9c31da2ef7"
   },
   "componentDataDependencies": {
     "nodes": {
