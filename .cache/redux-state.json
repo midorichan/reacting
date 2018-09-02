@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fdfd177970440270a766be85df462031",
+        "contentDigest": "290eaf32c65bda4538d9973d8662ad5d",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -279,11 +279,109 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/paula/Documents/GitHub/reacting/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.54",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "v4s0een8waq0",
+        "accessToken": "a0fd245d2fda11d9ab033c3dcb29c42237309236ee86ddba3f48775f9d936fa3"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreBootstrap",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/paula/Documents/GitHub/reacting/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.54",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "244f5366a2cc42ef3dee30ce87af9729",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/paula/Documents/GitHub/reacting",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3ed9a97ce6d7ccce9bfefa62cdb2be94",
+      "version": "3c459e1b6c8daef06c674cab488e572e",
       "pluginOptions": {
         "plugins": []
       },
@@ -314,8 +412,16 @@
             "version": "^2.0.11"
           },
           {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.54"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.5"
           },
           {
             "name": "url-loader",
@@ -335,7 +441,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f77479b4e42c44dfe3bab6610c2aff3c",
+        "contentDigest": "48bcbc6851e82c9b99db75bbb251eb31",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -424,21 +530,148 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "midorichan"
+        "title": "midorichan",
+        "description": "I am a designer. Living and working in Mar del Plata, Argentina. Focused on experience design. I occasionally code for fun",
+        "keywords": "designer, ux, argentina, web, mobile"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-29T23:52:01.398Z",
+      "buildTime": "2018-09-02T01:42:50.570Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "864238b9ed295fcb543241f5b7b08041",
+        "contentDigest": "02f897b52877569d0799a416aa59ae6c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "link": {
+      "id": "link",
+      "parent": null,
+      "children": [],
+      "name": "link",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "b92c212efe188701a858508504f15cb0",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c1iZWzZqj7A4gioWIiweq6c": {
+      "title": "Workshops",
+      "url": "/workshops",
+      "id": "c1iZWzZqj7A4gioWIiweq6c",
+      "contentful_id": "1iZWzZqj7A4gioWIiweq6c",
+      "createdAt": "2018-09-01T23:59:57.333Z",
+      "updatedAt": "2018-09-01T23:59:57.333Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "165fc7aff76327e16402192b3e833754",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c2JB1VXuKDm2KY8mG28ggG2": {
+      "title": "Downloads",
+      "url": "/downloads",
+      "id": "c2JB1VXuKDm2KY8mG28ggG2",
+      "contentful_id": "2JB1VXuKDm2KY8mG28ggG2",
+      "createdAt": "2018-09-01T23:59:41.528Z",
+      "updatedAt": "2018-09-01T23:59:41.528Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "14a01147019808a47c3f8869b40ab6a1",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c3vdAAHHP566cUqSUQsgS2K": {
+      "title": "About",
+      "url": "/about",
+      "id": "c3vdAAHHP566cUqSUQsgS2K",
+      "contentful_id": "3vdAAHHP566cUqSUQsgS2K",
+      "createdAt": "2018-09-01T23:59:25.930Z",
+      "updatedAt": "2018-09-01T23:59:25.930Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "5d151ca9fa53e773a293802831733bfc",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c3wBZIP8sJOGyUkgIImwKIY": {
+      "title": "Courses",
+      "url": "/courses",
+      "id": "c3wBZIP8sJOGyUkgIImwKIY",
+      "contentful_id": "3wBZIP8sJOGyUkgIImwKIY",
+      "createdAt": "2018-09-01T23:59:11.133Z",
+      "updatedAt": "2018-09-01T23:59:11.133Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "c0eb54709301907b594a479b561a18ee",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6BKgr9U4RUAyoIkse4Qc6g": {
+      "title": "Home",
+      "url": "/",
+      "id": "c6BKgr9U4RUAyoIkse4Qc6g",
+      "contentful_id": "6BKgr9U4RUAyoIkse4Qc6g",
+      "createdAt": "2018-09-01T23:58:42.111Z",
+      "updatedAt": "2018-09-01T23:58:42.111Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "03e038df7f38533e9ccefbd8b0a14d26",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6Td7XDgjp6yeK8uIU4wOMa": {
+      "title": "Contact",
+      "url": "/contact",
+      "id": "c6Td7XDgjp6yeK8uIU4wOMa",
+      "contentful_id": "6Td7XDgjp6yeK8uIU4wOMa",
+      "createdAt": "2018-09-02T01:42:18.612Z",
+      "updatedAt": "2018-09-02T01:42:18.612Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "6c2ee110fc7bdf8b93504bfbe1e39c3e",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c5OmdsZ0Ha8GQ68mSWCcw0k": {
+      "title": "Privacy",
+      "url": "/privacy",
+      "id": "c5OmdsZ0Ha8GQ68mSWCcw0k",
+      "contentful_id": "5OmdsZ0Ha8GQ68mSWCcw0k",
+      "createdAt": "2018-09-02T01:41:50.114Z",
+      "updatedAt": "2018-09-02T01:41:50.114Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "0185564e90c69b729e83e9e37aa49bcf",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "SitePage /404/": {
       "layout": "index",
@@ -456,7 +689,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "843ff58467fdce296af9a326baa6b804",
+        "contentDigest": "49a5e2d41e918890ecf23aa155d3ec30",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -477,7 +710,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b4994ff1b78f9cdbdf09b7a42004888",
+        "contentDigest": "cd5fe905607149046854561fd3b02eee",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -498,7 +731,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb719a6688dfa5fd5bdb54ed6ddc7723",
+        "contentDigest": "4989d30d0add839aafbe8045256d18a5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -519,25 +752,33 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dc609d8ec59a21ad99d27aa4598329ee",
+        "contentDigest": "1b958f4abf023ba2a974d2726a56648b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
-    "plugins": {},
-    "PLUGINS_HASH": "c84ab6b4362e40c0ac716d9c31da2ef7"
+    "plugins": {
+      "gatsby-source-contentful": {
+        "v4s0een8waq0-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybClMKEacKKw5E-HgBcRAPCmjzDr8KgwpzCkMOKw70rwofCkh3DnGvDnsK3FcK9w5lEVsKmAsOIO2MLw7nDlcOpw4QJwoRYw5MNYFYGaklNZcOoQcKMM8OSw7nCosKUc8KL"
+      }
+    },
+    "PLUGINS_HASH": "47e930214a6c3e6c9e20b87a603c2afc"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/"
       ]
     },
     "connections": {
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "ContentfulLink": [
+        "LAYOUT___index"
       ]
     }
   }

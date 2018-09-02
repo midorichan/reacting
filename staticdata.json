@@ -1,0 +1,48 @@
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Basic Styling in CSS",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Adaptive Layout with CSS Grid",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Interactions and Animations",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "SVG Animation",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Components and Props",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "States and Events",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Styled Components",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Static Data with JSON",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "GraphQL with Contentful",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        },
+        {
+            "title": "Publish to Netlify",
+            "image": "https://dzwonsemrish7.cloudfront.net/items/0w0B2y1a0j0E000G0c2E/logo-react.png"
+        }
+    ]
+}
